@@ -2,7 +2,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    outline: solid 1px red;
+    outline: solid 1px black; /*Sirve para que todos los contenedores tengan un borde sin inportar su contenido*/
 }
 
 body{
@@ -72,4 +72,39 @@ input{
 
 .start-container{
     justify-content: center;
+}
+
+.container-button{
+    display: flex;
+    justify-content: center;
+}
+
+#start-button{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    padding: 12px 14px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    border: 1px solid #ff4742;
+    border-radius: 6px;
+    background-color: #ff4742;
+    outline: 0;
+    box-shadow: rgba(0, 0, 0, 0.1)1px 2px 4px;
+
+}
+
+#start-button:hover{
+    background-color: #ffffff;
+    font-weight: 600;
+    color: #ff4742;
+}
+
+.settings-container{
+    justify-content: space-around;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
