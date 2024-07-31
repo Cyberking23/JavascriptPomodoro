@@ -2,7 +2,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    outline: solid 1px black; /*Sirve para que todos los contenedores tengan un borde sin inportar su contenido*/
+    /* outline: solid 1px black; Sirve para que todos los contenedores tengan un borde sin inportar su contenido */
 }
 
 body{
